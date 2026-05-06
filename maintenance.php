@@ -24,4 +24,5 @@ $data = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
     });
   </script>
 </body>
+
 </html>

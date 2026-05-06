@@ -25,6 +25,7 @@ $metrics = $res ? $res->fetch_assoc() : null;
       <a href="operations.php"><li>Gas Level</li></a>
       <a href="maintenance.php"><li>Water Level</li></a>
       
+      
       <a href="energy.php"><li>temperature</li></a>
       <a href="quality_safety.php"><li>humidiy</li></a>
     </ul>

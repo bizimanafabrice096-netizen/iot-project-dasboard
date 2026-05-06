@@ -5,6 +5,7 @@ if ($conn->connect_error) {
     die("DB Error: " . $conn->connect_error);
 }
 
+
 $temp  = isset($_POST["temperature"]) ? floatval($_POST["temperature"]) : null;
 $hum   = isset($_POST["humidity"])    ? floatval($_POST["humidity"])    : null;
 $gas   = isset($_POST["gas"])         ? intval($_POST["gas"])           : null;

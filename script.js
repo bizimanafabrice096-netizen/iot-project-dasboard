@@ -11,6 +11,7 @@ fetch('api.php?type=recent')
       }
     });
 
+    
     // Humidity chart
     new Chart(document.getElementById('humChart'), {
       type: 'line',

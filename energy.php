@@ -6,6 +6,7 @@ $res = $conn->query("SELECT * FROM datas ORDER BY created_at DESC LIMIT 20");
 $data = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
 ?>
 <!DOCTYPE html>
+
 <html>
 <head>
   <title>Energy Dashboard</title>

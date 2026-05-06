@@ -8,11 +8,13 @@ $data = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>Operations Dashboard</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+
   <h1>Operations</h1>
   <canvas id="opsChart"></canvas>
   <script>

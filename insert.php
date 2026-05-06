@@ -10,6 +10,7 @@ $gas    = $_POST['gas'];
 $water  = $_POST['water'];
 $light  = $_POST['light'];
 
+
 $sql = "INSERT INTO datas (temperature, humidity, gas, water, light)
         VALUES ('$temp', '$hum', '$gas', '$water', '$light')";
 

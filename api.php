@@ -6,6 +6,7 @@ if ($conn->connect_error) {
     exit;
 }
 
+
 $type = $_GET['type'] ?? '';
 
 if ($type === 'recent') {

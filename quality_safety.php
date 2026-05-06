@@ -10,6 +10,7 @@ $data = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
 <!DOCTYPE html>
 <html>
 <head>
+  
   <title>Quality & Safety Dashboard</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
